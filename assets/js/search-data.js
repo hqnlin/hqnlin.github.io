@@ -9,16 +9,9 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-blog",
-          title: "blog",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/blog/";
-          },
-        },{id: "nav-projects",
+  },{id: "nav-projects",
           title: "projects",
-          description: "Coming soon...",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -30,23 +23,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{
+        },{id: "projects-eeebot",
+          title: 'EEEBot',
+          description: "As part of my first-year construction project, I built and programmed an autonomous robot using sensors and microcontrollers.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/eeebot/";
+            },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
